@@ -77,5 +77,5 @@ def handle_message(data):
 def handle_disconnect():
     pass
 
-if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000, allow_unsafe_werkzeug=True)
+#if __name__ == '__main__':
+#    socketio.run(app, debug=True, port=5000, allow_unsafe_werkzeug=True)
